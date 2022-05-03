@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopBridge.Microservices.Product.DataInterfaces\ShopBridge.Microservices.Product.DataInterfaces.csproj" />
+    <ProjectReference Include="..\ShopBridge.Microservices.Product.Domain\ShopBridge.Microservices.Product.Domain.csproj" />
+    <ProjectReference Include="..\ShopBridge.Microservices.Product.Models\ShopBridge.Microservices.Product.Models.csproj" />
+    <ProjectReference Include="..\ShopBridge.Microservices.Product.ServiceInterfaces\ShopBridge.Microservices.Product.ServiceInterfaces.csproj" />
+  </ItemGroup>
+
+</Project>
